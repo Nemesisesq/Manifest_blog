@@ -1,9 +1,23 @@
+import com.manifest.blog.Role
+import com.manifest.blog.*
 import manifest.blog.Post
 import manifest.blog.Comment
+
 
 class BootStrap {
 
     def init = { servletContext ->
+
+        def adminRole = Role.findOrSaveWhere(authority: 'ROLE_ADMIN') ?: new Role(authority: 'ROLE_ADMIN').save()
+        String password = 'password'
+
+        def user = new User(username:'CarlLewis', password: password, enable:true).save()
+        def user2 = new User(username:'LuisCarbuccia', password: password, enable:true).save()
+
+        UserRole.create user, adminRole, true
+
+
+
         new Post(
                 title: "TestBlog",
                 subtitle: "this is only a test",
