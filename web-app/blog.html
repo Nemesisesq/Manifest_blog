@@ -1,0 +1,33 @@
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>{{ post.title }}</h1>
+                        <h2 class="subheading">{{ post.subtitle}}</h2>
+                        <span class="meta">Posted by <a href="#">{{ post.author}}</a> on {{ post.dateCreated}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    {{ post.body}}
+                </div>
+            </div>
+        </div>
+    </article>
+    <div class="container">
+        <div class="col-lg-7 col-lg-offset-3" ng-repeat="comment in comments">
+            {{comment}}
+            <div class="row">
+                {{comment.author}}
+                <p>{{comment.body}}</p>
+            </div>
+            <hr>
+        </div>
+    </div>
+
