@@ -1,33 +1,55 @@
-
-    <!-- Post Content -->
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="post-heading">
-                        <h1>{{ post.title }}</h1>
-                        <h2 class="subheading">{{ post.subtitle}}</h2>
-                        <span class="meta">Posted by <a href="#">{{ post.author}}</a> on {{ post.dateCreated}}</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    {{ post.body}}
-                </div>
-            </div>
-        </div>
-    </article>
+<!-- Post Content -->
+<article>
     <div class="container">
-        <div class="col-lg-7 col-lg-offset-3" ng-repeat="comment in comments">
-            {{comment}}
-            <div class="row">
-                {{comment.author}}
-                <p>{{comment.body}}</p>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>{{ post.title }}</h1>
+
+                    <h2 class="subheading">{{ post.subtitle}}</h2>
+                    <span class="meta">Posted by <a href="#">{{ post.author}}</a> on {{ post.dateCreated}}</span>
+                </div>
             </div>
-            <hr>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                {{ post.body}}
+            </div>
+        </div>
+    </div>
+</article>
+<div class="container">
+    <div class="col-lg-7 col-lg-offset-3" ng-repeat="comment in comments">
+        <div class="row">
+            {{comment.author}}
+            <p>{{comment.body}}</p>
+        </div>
+        <hr>
+    </div>
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+        <div class="row">
+            <h1>Add A Comment</h1>
+        </div>
+        <form role="form">
+            <div class="form-group">
+                <input type="text" name="author" id="author" class="form-control input-sm" placeholder="author">
+            </div>
+
+            <div class="form-group">
+                <input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address">
+            </div>
+
+            <div>
+                <textarea class="text-area form-control" rows="6"></textarea>
+            </div>
+
+            <hr>
+
+            <input type="submit" value="submit" class=" btn-info btn-block">
+        </form>
+    </div>
+</div>
 
