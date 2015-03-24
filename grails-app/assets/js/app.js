@@ -18,21 +18,38 @@ app.controller('PostsController', ['$scope', '$http', function ($scope, $http) {
 
 app.controller('PostController', function ($scope, $stateParams, $http) {
     $scope.post = [];
-    console.log($stateParams.postId);
+    $scope.comment = {};
+
     var url = 'post/' + $stateParams.postId;
     $http.get(url + '.json')
-        .success(function(data) {
+        .success(function (data) {
             $scope.post = data;
         })
-        .error(function(){
+        .error(function () {
             alert('there was a problem getting the post')
         });
 
-    $http.get(url+'/comments.json')
-        .success(function(data){
+    $http.get(url + '/comments.json')
+        .success(function (data) {
             $scope.comments = data;
         })
-        .error()
+        .error();
+
+
+    $scope.addComment = function (comment) {
+
+        var c = JSON.stringify(comment);
+
+        $http.post(url + '/comments', c)
+            .success(function (data) {
+                $scope.comments.push(data)
+
+            }).error(function (e) {
+                console.log(e.toString() + ' : this error occured')
+            })
+
+
+    }
 });
 
 app.config(function ($stateProvider, $urlRouterProvider) {
