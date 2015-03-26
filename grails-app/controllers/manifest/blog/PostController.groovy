@@ -28,12 +28,14 @@ class PostController extends RestfulController {
     @Override
     def save(){
         def r = request.JSON
-        new Post(title: r.title,
+        def p  = new Post(title: r.title,
                 subtitle: r.subtitle,
                 body: r.body,
                 dateCreated: new LocalDate(),
                 author: r.author,
                 draft: r.draft).save()
+
+        respond p
     }
 
     def search(){

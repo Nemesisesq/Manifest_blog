@@ -2,308 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e34b58-65e7-4e89-9570-7ca5d371cc19" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/assets/js/angular-modal-service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testSearch.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/app/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/manifest/blog/PostController$_startAsync_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/manifest/blog/PostControllerSpec.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AbstractAssetFile.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AbstractAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/credentials/AbstractJsonPayloadCredentialsExtractor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/credentials/AbstractJsonPayloadCredentialsExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/credentials/AbstractJsonPayloadCredentialsExtractor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/credentials/AbstractJsonPayloadCredentialsExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AbstractProcessor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AbstractProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetCompiler.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetCompiler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetHelper.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetMethodTagLib.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetMethodTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetPipelineFilter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetPipelineFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetProcessorService.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetProcessorService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetProcessorService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetProcessorService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/grails/AssetResourceLocator.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/grails/AssetResourceLocator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetUrlMappings.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetUrlMappings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetsController.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetsTagLib.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/AssetsTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenAuthenticationEntryPoint.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenAuthenticationEntryPoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenAuthenticationEntryPoint.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenAuthenticationEntryPoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenAuthenticationFailureHandler.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenAuthenticationFailureHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenAuthenticationFailureHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenAuthenticationFailureHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenReader.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenReader.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/bearer/BearerTokenReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/Blog.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/Blog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/manifest/blog/Blog.class" afterPath="$PROJECT_DIR$/target/classes/manifest/blog/Blog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Manifest-Blog/manifest/blog/BlogSpec.class" afterPath="$PROJECT_DIR$/out/test/Manifest-Blog/manifest/blog/BlogSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure3.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure4.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5_closure6.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5_closure6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/CacheManager.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/CacheManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CacheManager.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CacheManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/cache/CacheTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/grails/CachingLinkGenerator.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/grails/CachingLinkGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/ChangelogXml2Groovy.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/ChangelogXml2Groovy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/Comment.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/Comment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/manifest/blog/Comment.class" afterPath="$PROJECT_DIR$/target/classes/manifest/blog/Comment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/CommentController.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/CommentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/manifest/blog/CommentController.class" afterPath="$PROJECT_DIR$/target/classes/manifest/blog/CommentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Manifest-Blog/manifest/blog/CommentControllerSpec.class" afterPath="$PROJECT_DIR$/out/test/Manifest-Blog/manifest/blog/CommentControllerSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Manifest-Blog/manifest/blog/CommentSpec.class" afterPath="$PROJECT_DIR$/out/test/Manifest-Blog/manifest/blog/CommentSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config.class" afterPath="$PROJECT_DIR$/target/classes/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/cache/ConfigBuilder.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/cache/ConfigBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/cache/ConfigLoader.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/cache/ConfigLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CorsGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CorsGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/CssAssetFile.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/CssAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CssAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CssAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/processors/CssMinifyPostProcessor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/processors/CssMinifyPostProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/processors/CssProcessor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/processors/CssProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource.class" afterPath="$PROJECT_DIR$/target/classes/DataSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/DbdocController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/credentials/DefaultJsonPayloadCredentialsExtractor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/credentials/DefaultJsonPayloadCredentialsExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/credentials/DefaultJsonPayloadCredentialsExtractor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/credentials/DefaultJsonPayloadCredentialsExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/oauth/DefaultOauthUserDetailsService.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/oauth/DefaultOauthUserDetailsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/oauth/DefaultOauthUserDetailsService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/oauth/DefaultOauthUserDetailsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/rendering/DefaultRestAuthenticationTokenJsonRenderer.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/rendering/DefaultRestAuthenticationTokenJsonRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/rendering/DefaultRestAuthenticationTokenJsonRenderer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/rendering/DefaultRestAuthenticationTokenJsonRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultRestSecurityConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultRestSecurityConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/DirectiveProcessor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/DirectiveProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/DslBuilder.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/DslBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/webxml/FilterManager.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/webxml/FilterManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GormColumn.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GormColumn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GormDatabase.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GormDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GormDiff.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GormDiff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/storage/GormTokenStorageService.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/storage/GormTokenStorageService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/storage/GormTokenStorageService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/storage/GormTokenStorageService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/cache/GrailsCacheAdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/storage/GrailsCacheTokenStorageService.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/storage/GrailsCacheTokenStorageService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/storage/GrailsCacheTokenStorageService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/storage/GrailsCacheTokenStorageService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsChange$1.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsChange$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsChange.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsChange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsChangeLogParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsDiffStatusListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition$1.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/HtmlAssetFile.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/HtmlAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/reader/HttpHeaderTokenReader.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/reader/HttpHeaderTokenReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/reader/HttpHeaderTokenReader.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/reader/HttpHeaderTokenReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/InterceptedUrl.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/InterceptedUrl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/InterceptedUrl.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/InterceptedUrl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/JQueryResourceTagLib$_closure2.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/JQueryResourceTagLib$_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/JQueryResourceTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/JQueryService.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/JQueryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/JQueryTagLib.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/JQueryTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/JsAssetFile.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/JsAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/JsAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/JsAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/grails/LinkGenerator.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/grails/LinkGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/LinkedProperties.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/LinkedProperties.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/ListEnumeration.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/ListEnumeration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/LoginController.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/LogoutController.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/LogoutController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/ManifestAssetFile.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/ManifestAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/storage/MemcachedTokenStorageService.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/storage/MemcachedTokenStorageService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/storage/MemcachedTokenStorageService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/storage/MemcachedTokenStorageService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/MigrationRunner.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/MigrationRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/MigrationUtils.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/MigrationUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/NoopVisitor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/NoopVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/oauth/OauthUser.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/oauth/OauthUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/oauth/OauthUser.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/oauth/OauthUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/Post$__clinit__closure1.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/Post$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/manifest/blog/Post$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/manifest/blog/Post$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/Post.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/Post.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/manifest/blog/Post.class" afterPath="$PROJECT_DIR$/target/classes/manifest/blog/Post.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/PostController.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog/manifest/blog/PostController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testPost" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-app/search.html" afterPath="$PROJECT_DIR$/web-app/addBlog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/manifest/blog/PostController.class" afterPath="$PROJECT_DIR$/target/classes/manifest/blog/PostController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Manifest-Blog/manifest/blog/PostControllerSpec.class" afterPath="$PROJECT_DIR$/out/test/Manifest-Blog/manifest/blog/PostControllerSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Manifest-Blog/manifest/blog/PostSpec.class" afterPath="$PROJECT_DIR$/out/test/Manifest-Blog/manifest/blog/PostSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/ReflectionUtils.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/ReflectionUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/ReflectionUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/ReflectionUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/credentials/RequestParamsCredentialsExtractor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/credentials/RequestParamsCredentialsExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/credentials/RequestParamsCredentialsExtractor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/credentials/RequestParamsCredentialsExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationFailureHandler.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationFailureHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationFailureHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationFailureHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationFilter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationFilter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationProvider.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationProvider.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationSuccessHandler.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationSuccessHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationSuccessHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationSuccessHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationToken.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationToken.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestAuthenticationToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestLogoutFilter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestLogoutFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestLogoutFilter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestLogoutFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestOauthController.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestOauthController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestOauthController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestOauthController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestOauthService.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestOauthService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestOauthService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestOauthService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/RestOauthUrlMappings.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/RestOauthUrlMappings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestTokenValidationFilter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/RestTokenValidationFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestTokenValidationFilter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/RestTokenValidationFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog/com/manifest/blog/Role.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog/com/manifest/blog/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/manifest/blog/Role.class" afterPath="$PROJECT_DIR$/target/classes/com/manifest/blog/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/ScriptUtils.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/ScriptUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/generation/SecureRandomTokenGenerator.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/generation/SecureRandomTokenGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/generation/SecureRandomTokenGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/generation/SecureRandomTokenGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/Slf4jLogger.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/Slf4jLogger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityRestGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityRestGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/SpringSecurityService.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/springsecurity/SpringSecurityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableListWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableWriter.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/storage/TokenNotFoundException.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/storage/TokenNotFoundException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/storage/TokenNotFoundException.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/storage/TokenNotFoundException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/TomcatGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/TomcatGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/TomcatLoader.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/TomcatLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/TomcatServer.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/TomcatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/TomcatServerFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/generation/UUIDTokenGenerator.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/com/odobo/grails/plugin/springsecurity/rest/token/generation/UUIDTokenGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/generation/UUIDTokenGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/com/odobo/grails/plugin/springsecurity/rest/token/generation/UUIDTokenGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/processors/UglifyJsProcessor.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog-grailsPlugins/asset/pipeline/processors/UglifyJsProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UrlMappings.class" afterPath="$PROJECT_DIR$/target/classes/UrlMappings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog/com/manifest/blog/User.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog/com/manifest/blog/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/manifest/blog/User.class" afterPath="$PROJECT_DIR$/target/classes/com/manifest/blog/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Manifest-Blog/com/manifest/blog/UserRole.class" afterPath="$PROJECT_DIR$/out/production/Manifest-Blog/com/manifest/blog/UserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/manifest/blog/UserRole.class" afterPath="$PROJECT_DIR$/target/classes/com/manifest/blog/UserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources.class" afterPath="$PROJECT_DIR$/target/classes/resources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/manifest/blog/CommentController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/manifest/blog/CommentController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Manifest-Blog-grailsPlugins.iml" afterPath="$PROJECT_DIR$/Manifest-Blog-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Manifest-Blog.iml" afterPath="$PROJECT_DIR$/Manifest-Blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/manifest/blog/Post.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/manifest/blog/Post.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/angular-modal-service.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/angular-modal-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/angular-route.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/angular-route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/angular-ui-router.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/angular-ui-router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/angular.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/angular.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/app.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/blog.html" afterPath="$PROJECT_DIR$/web-app/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/css/clean-blog.css" afterPath="$PROJECT_DIR$/grails-app/assets/css/clean-blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/clean-blog.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/clean-blog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/clean-blog.min.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/clean-blog.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/content.html" afterPath="$PROJECT_DIR$/web-app/content.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/app/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/app/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/jquery.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/jquery.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testLogin.json" afterPath="$PROJECT_DIR$/testLogin.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Manifest-Blog.iws" />
@@ -334,7 +50,7 @@
       <file leaf-file-name="CommentController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/manifest/blog/CommentController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="285" max-vertical-offset="645">
+            <state vertical-scroll-proportion="-8.391304" vertical-offset="92" max-vertical-offset="645">
               <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding />
             </state>
@@ -344,28 +60,8 @@
       <file leaf-file-name="index.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/app/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5531917" vertical-offset="161" max-vertical-offset="2205">
-              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlMappings.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2083335" vertical-offset="367" max-vertical-offset="930">
-              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            <state vertical-scroll-proportion="-1.5957447" vertical-offset="615" max-vertical-offset="2370">
+              <caret line="46" column="96" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -374,8 +70,8 @@
       <file leaf-file-name="Post.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/manifest/blog/Post.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="645">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.283019" vertical-offset="109" max-vertical-offset="645">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#23#45#0" expanded="true" />
               </folding>
@@ -386,21 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/content.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="585">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PostController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.043478" vertical-offset="139" max-vertical-offset="795">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state vertical-scroll-proportion="-23.47826" vertical-offset="0" max-vertical-offset="825">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="e#23#59#0" expanded="true" />
               </folding>
@@ -408,21 +94,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/assets/js/app.js">
+      <file leaf-file-name="testPost" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testPost">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="1455">
-              <caret line="6" column="106" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
+            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/search.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="585">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.7210744" vertical-offset="1541" max-vertical-offset="2160">
+              <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testLogin.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testLogin.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extra credit.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/extra credit.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -432,6 +138,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response255.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -451,9 +160,11 @@
         <option value="$PROJECT_DIR$/grails-app/domain/manifest/blog/Post.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy" />
         <option value="$PROJECT_DIR$/web-app/search.html" />
         <option value="$PROJECT_DIR$/web-app/content.html" />
+        <option value="$PROJECT_DIR$/web-app/addBlog.html" />
+        <option value="$PROJECT_DIR$/testPost" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/app/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/assets/js/app.js" />
       </list>
@@ -492,6 +203,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -523,46 +236,6 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Manifest-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Manifest-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Manifest-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Manifest-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -592,76 +265,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Manifest-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Manifest-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Manifest-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Manifest-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-modal-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Manifest-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Manifest-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-modal-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dst" />
+              <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -678,7 +287,9 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testPost" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript 1.5" value="false" />
+    <property name="LayoutCode.rearrangeEntriesGSP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -695,6 +306,116 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/Manifest-Blog/" />
+                <option name="value" value="15F8DC6EE80F5722949A6E744346725E" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Manifest-Blog/post/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/testPost" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/Manifest-Blog/" />
+                <option name="value" value="15F8DC6EE80F5722949A6E744346725E" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Manifest-Blog/post/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="query" />
+                <option name="value" value="%test%" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/Manifest-Blog/" />
+                <option name="value" value="15F8DC6EE80F5722949A6E744346725E" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Manifest-Blog/post/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="query" />
+                <option name="value" value="%test%" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -2191,66 +1912,6 @@
           <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="/Manifest-Blog/post/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="/Manifest-Blog/post/1/comments" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="/Manifest-Blog/post/2/comments" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -2544,12 +2205,13 @@
       <workItem from="1427124938967" duration="9672000" />
       <workItem from="1427202235724" duration="12361000" />
       <workItem from="1427225913721" duration="21029000" />
-      <workItem from="1427336504007" duration="4435000" />
+      <workItem from="1427336504007" duration="8391000" />
+      <workItem from="1427385186103" duration="5902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63814000" />
+    <option name="totallyTimeSpent" value="73672000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2588,27 +2250,27 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43989432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892704" sideWeight="0.49881235" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32364598" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24892704" sideWeight="0.49881235" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32364598" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.397351" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39630118" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24177396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14949928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43989432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2646,15 +2308,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy</url>
-          <line>39</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="32" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2663,23 +2331,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/app/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3120">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="98580">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gvm/grails/2.4.4/dist/grails-plugin-rest-2.4.4-sources.jar!/org/grails/plugins/web/rest/api/ControllersRestApi.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6443515" vertical-offset="2537" max-vertical-offset="3015">
@@ -2762,13 +2413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testLogin.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16216215" vertical-offset="0" max-vertical-offset="370">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testSearch.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="370">
@@ -2780,6 +2424,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49593496" vertical-offset="4722" max-vertical-offset="5895">
           <caret line="327" column="0" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2787,6 +2432,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24390244" vertical-offset="0" max-vertical-offset="369">
           <caret line="6" column="5983" selection-start-line="6" selection-start-column="5983" selection-end-line="6" selection-end-column="5983" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2848,46 +2494,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4150944" vertical-offset="0" max-vertical-offset="345">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/blog_comments.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/creating_blog_entries.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/reading_blog_entries.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/searchability.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/extra credit.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gvm/grails/2.4.4/src/grails-datastore-gorm-3.1.3.RELEASE-sources.jar!/org/grails/datastore/gorm/support/BeforeValidateHelper.java">
@@ -2932,32 +2543,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/manifest/blog/CommentController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="645">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8547718" vertical-offset="623" max-vertical-offset="1350">
           <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/manifest/blog/Post.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="645">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gvm/grails/2.4.4/lib/org.springframework/spring-webmvc/jars/spring-webmvc-4.0.7.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
@@ -2975,62 +2565,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gvm/grails/2.4.4/lib/org.springframework/spring-webmvc/jars/spring-webmvc-4.0.7.RELEASE.jar!/org/springframework/web/servlet/mvc/SimpleControllerHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="390">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1710">
           <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2083335" vertical-offset="367" max-vertical-offset="930">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="585">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="585">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.043478" vertical-offset="139" max-vertical-offset="795">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-          <folding>
-            <element signature="e#23#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3043,18 +2583,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="600">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="930">
+          <caret line="52" column="15" selection-start-line="36" selection-start-column="8" selection-end-line="52" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/addBlog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.166667" vertical-offset="80" max-vertical-offset="540">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/manifest/blog/CommentController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.391304" vertical-offset="92" max-vertical-offset="645">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/2.4.4/lib/org.springframework/spring-webmvc/jars/spring-webmvc-4.0.7.RELEASE.jar!/org/springframework/web/servlet/mvc/SimpleControllerHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4851752" vertical-offset="0" max-vertical-offset="390">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/manifest/blog/Post.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.283019" vertical-offset="109" max-vertical-offset="645">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/blog_comments.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/creating_blog_entries.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/reading_blog_entries.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/searchability.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/extra credit.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testLogin.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0326087" vertical-offset="1395" max-vertical-offset="1920">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.47826" vertical-offset="0" max-vertical-offset="825">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testPost">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/app/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5531917" vertical-offset="161" max-vertical-offset="2205">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+        <state vertical-scroll-proportion="-1.5957447" vertical-offset="615" max-vertical-offset="2370">
+          <caret line="46" column="96" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="1455">
-          <caret line="6" column="106" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
+        <state vertical-scroll-proportion="0.7210744" vertical-offset="1541" max-vertical-offset="2160">
+          <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
           <folding />
         </state>
       </provider>

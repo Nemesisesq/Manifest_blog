@@ -3,9 +3,45 @@
  */
 var app = angular.module('Blog', ['ui.router', 'angularModalService']);
 
+app.controller("ModalController", function ($scope, close, $http) {
+    $scope.dismissModal = function (result) {
+        close(result, 200);
+    }
+    $scope.saveNewPost = function () {
+        var url = "post";
+        var data = $scope.post;
+        $http.post(url, data)
+            .success(function(data){
+                close(data)
+            })
+    }
+});
 
-app.controller('PostsController', ['$scope', '$http', 'ModalSerice', function ($scope, $http, ModalService) {
-    $scope.searchOrContent = true
+app.constroller("LoginController", function($http){
+    $scope.loggedIn = false;
+
+    $scope.doLogin = function(data) {
+        var url = "api/login";
+
+        $http.post(url, data)
+            .success(function(){
+                $scope.loggedIn = true
+            })
+    };
+})
+
+app.controller('PostsController', ['$scope', '$http', 'ModalService', function ($scope, $http, ModalService) {
+    $scope.loggedIn = false;
+
+    $scope.doLogin = function(data) {
+        var url = "api/login";
+
+        $http.post(url, data)
+            .success(function(){
+                $scope.loggedIn = true
+            })
+    };
+
     $http.get('post')
         .success(function (data) {
             $scope.posts = data;
@@ -14,6 +50,24 @@ app.controller('PostsController', ['$scope', '$http', 'ModalSerice', function ($
             alert('problem getting posts');
         });
 
+    $scope.addPost = function () {
+        ModalService.showModal({
+            templateUrl: "addBlog.html",
+            controller: "ModalController"
+        }).then(function (modal) {
+            //it's a bootstrap element, use 'modal' to show it
+            modal.element.modal();
+            modal.close.then(function (data) {
+                $scope.posts.unshift(data);
+
+            });
+
+        })
+
+
+    };
+
+
     $scope.search = function (query) {
         var c = JSON.stringify(query);
         $http({
@@ -21,7 +75,7 @@ app.controller('PostsController', ['$scope', '$http', 'ModalSerice', function ($
             url: 'post/search',
             params: {query: query}
         }).success(function (data) {
-            $scope.searchOrContent=false
+            $scope.searchOrContent = false
             var d = data;
             $scope.posts = data
         }).error(function () {
@@ -70,23 +124,16 @@ app.controller('PostController', function ($scope, $stateParams, $http) {
     }
 });
 
+app.directive('content')
+
 app.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('blog', {
             url: '/blog/:postId/:slug',
             templateUrl: 'blog.html',
             controller: 'PostController'
-        })
-        .state('search', {
-            url: '/search',
-            templateUrl: 'search.html',
-            controller: 'PostController'
-        })
-        .state('home', {
-            url: '/',
-            templateUrl: 'content.html',
-            controller: 'PostsController'
         });
+
 
     $urlRouterProvider.otherwise('/');
 });

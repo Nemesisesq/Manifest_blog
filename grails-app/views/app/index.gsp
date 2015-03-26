@@ -20,7 +20,10 @@
           type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
           rel='stylesheet' type='text/css'>
+    <!-- jQuery -->
+    <script src="${resource(dir: 'js', file: 'jquery.js')}"></script>
 
+    <script src="${resource(dir: 'js', file: 'bootstrap.js')}"></script>
     <script src="${resource(dir: 'js', file: 'angular.js')}"></script>
     <script src="${resource(dir: 'js', file: 'angular-ui-router.js')}"></script>
     <script src="${resource(dir: 'js', file: 'angular-modal-service.js')}"></script>
@@ -41,7 +44,7 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top" ng-controller="LoginController">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
 
@@ -53,19 +56,32 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.gsp">Start Bootstrap</a>
+            <a class="navbar-brand" href="/">Grails Blog</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="index.gsp">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-            </ul>
+        {{ loggedIn }}
+            <a class="navbar-brand pull-right" href="api/logout" ng-show="loggedIn">Logout</a>
+
+            <div ng-hide="loggedIn">
+
+                <form class="form-inline pull-right" ng-show="!loggedIn" ng-submit="doLogin(data)">
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Username"
+                               ng-model="data.username">
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password"
+                               ng-model="password">
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Sign in</button>
+                </form>
+            </div>
         </div>
         <!-- /.navbar-collapse -->
     </div>
@@ -79,9 +95,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1>Clean Blog</h1>
+                    <h1>Grails Blog</h1>
                     <hr class="small">
-                    <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                    <span class="subheading">Should have been done ages ago!</span>
                 </div>
             </div>
         </div>
@@ -130,11 +146,6 @@
         </div>
     </div>
 </footer>
-
-<!-- jQuery -->
-<script src="${resource(dir: 'js', file: 'jquery.js')}"></script>
-
-
 
 </body>
 
