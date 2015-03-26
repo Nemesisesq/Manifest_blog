@@ -62,7 +62,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-            <a class="navbar-brand pull-right" href="api/logout" ng-show="loggedIn" ng-click="doLogout()">Logout</a>
+            <a class="navbar-brand pull-right" ng-show="loggedIn" ng-click="doLogout()">Logout</a>
 
             <div ng-hide="loggedIn">
 

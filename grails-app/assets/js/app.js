@@ -22,7 +22,7 @@ app.controller("LoginController", function($scope, $http){
 
     $scope.doLogin = function(data) {
         var url = "api/login";
-        var d = data
+        var d = data;
         $http.post(url, data)
             .success(function(){
                 $scope.loggedIn = true
