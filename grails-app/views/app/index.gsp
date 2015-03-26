@@ -23,6 +23,8 @@
 
     <script src="${resource(dir: 'js', file: 'angular.js')}"></script>
     <script src="${resource(dir: 'js', file: 'angular-ui-router.js')}"></script>
+    <script src="${resource(dir: 'js', file: 'angular-modal-service.js')}"></script>
+
     <script src="${resource(dir: 'js', file: 'app.js')}"></script>
 
 
@@ -62,12 +64,6 @@
                 </li>
                 <li>
                     <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="post.html">Sample Post</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>

@@ -1,35 +1,53 @@
 /**
  * Created by manifest on 3/19/15.
  */
-var app = angular.module('Blog', ['ui.router']);
+var app = angular.module('Blog', ['ui.router', 'angularModalService']);
 
-app.controller('PostsController', ['$scope', '$http', function ($scope, $http) {
-    $scope.hello = 'world';
-    $scope.posts = [];
-    //var host = '/Manifest-blog';
-    $http.get('post.json')
+
+app.controller('PostsController', ['$scope', '$http', 'ModalSerice', function ($scope, $http, ModalService) {
+    $scope.searchOrContent = true
+    $http.get('post')
         .success(function (data) {
             $scope.posts = data;
         })
         .error(function () {
             alert('problem getting posts');
+        });
+
+    $scope.search = function (query) {
+        var c = JSON.stringify(query);
+        $http({
+            method: "get",
+            url: 'post/search',
+            params: {query: query}
+        }).success(function (data) {
+            $scope.searchOrContent=false
+            var d = data;
+            $scope.posts = data
+        }).error(function () {
+            alert("there's a problem with the search")
         })
+
+    }
+
+
 }]);
 
+
 app.controller('PostController', function ($scope, $stateParams, $http) {
-    $scope.post = [];
-    $scope.comment = {};
+
 
     var url = 'post/' + $stateParams.postId;
-    $http.get(url + '.json')
+    $http.get(url)
         .success(function (data) {
             $scope.post = data;
+            alert('hello world')
         })
         .error(function () {
             alert('there was a problem getting the post')
         });
 
-    $http.get(url + '/comments.json')
+    $http.get(url + '/comments')
         .success(function (data) {
             $scope.comments = data;
         })
@@ -42,7 +60,7 @@ app.controller('PostController', function ($scope, $stateParams, $http) {
 
         $http.post(url + '/comments', c)
             .success(function (data) {
-                $scope.comments.push(data)
+                $scope.comments.unshift(data)
 
             }).error(function (e) {
                 console.log(e.toString() + ' : this error occured')
@@ -55,8 +73,13 @@ app.controller('PostController', function ($scope, $stateParams, $http) {
 app.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('blog', {
-            url: '/blog/:postId',
+            url: '/blog/:postId/:slug',
             templateUrl: 'blog.html',
+            controller: 'PostController'
+        })
+        .state('search', {
+            url: '/search',
+            templateUrl: 'search.html',
             controller: 'PostController'
         })
         .state('home', {

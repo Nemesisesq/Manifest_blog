@@ -2,8 +2,6 @@ package manifest.blog
 
 
 
-import static org.springframework.http.HttpStatus.*
-import grails.converters.JSON
 import grails.test.mixin.*
 import spock.lang.*
 
@@ -13,89 +11,140 @@ class PostControllerSpec extends Specification {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params['name'] = 'someValidName'
+        // TODO: Populate valid properties in order to make the test pass
+    }
+
+    def populateInvalidParams(params) {
+        assert params != null
+        // TODO: Populate properties that fail validation in order to make the test pass
     }
 
     void "Test the index action returns the correct model"() {
 
         when:"The index action is executed"
-            controller.index()
+            controller.index().get()
 
-        then:"The response is correct"
-            response.status == OK.value
-            response.text == ([] as JSON).toString()
+        then:"The model is correct"
+            !model.postInstanceList
+            model.postInstanceCount == 0
+    }
+
+    void "Test the create action returns the correct model"() {
+        when:"The create action is executed"
+            controller.create()
+
+        then:"The model is correctly created"
+            model.postInstance!= null
     }
 
     void "Test the save action correctly persists an instance"() {
 
         when:"The save action is executed with an invalid instance"
-            // Make sure the domain class has at least one non-null property
-            // or this test will fail.
-            def post = new Post()
-            controller.save(post)
+            def post= new Post()
+            post.validate()
+            controller.save(post).get()
 
-        then:"The response status is NOT_ACCEPTABLE"
-            response.status == NOT_ACCEPTABLE.value
+        then:"The create view is rendered again with the correct model"
+            model.postInstance!= null
+            view == 'create'
 
         when:"The save action is executed with a valid instance"
             response.reset()
             populateValidParams(params)
-            post = new Post(params)
+            post= new Post(params)
 
-            controller.save(post)
+            controller.save(post).get()
 
-        then:"The response status is CREATED and the instance is returned"
-            response.status == CREATED.value
-            response.text == (post as JSON).toString()
+        then:"A redirect is issued to the show action"
+            response.redirectedUrl == "/post/show/$post.id"
+            controller.flash.message != null
+            Post.count() == 1
+    }
+
+    void "Test that the show action returns the correct model"() {
+        when:"The show action is execu ted with a null domain"
+            controller.show(null).get()
+
+        then:"A 404 error is returned"
+            response.status == 404
+
+        when:"A domain instance is passed to the show action"
+            populateValidParams(params)
+            def post= new Post(params).save(flush:true)
+
+            controller.show(post.id).get()
+
+        then:"A model is populated containing the domain instance"
+            model.postInstance.id==post.id
+    }
+
+    void "Test that the edit action returns the correct model"() {
+        when:"The edit action is executed with a null domain"
+            controller.edit(null).get()
+
+        then:"A 404 error is returned"
+            response.status == 404
+
+        when:"A domain instance is passed to the edit action"
+            populateValidParams(params)
+            def post= new Post(params).save(flush:true)
+            controller.edit(post?.id).get()
+
+        then:"A model is populated containing the domain instance"
+            model.postInstance.id==post.id
     }
 
     void "Test the update action performs an update on a valid domain instance"() {
         when:"Update is called for a domain instance that doesn't exist"
-            controller.update(null)
+            controller.update(null).get()
 
-        then:"The response status is NOT_FOUND"
-            response.status == NOT_FOUND.value
+        then:"A 404 error is returned"
+            status == 404
 
         when:"An invalid domain instance is passed to the update action"
             response.reset()
-            def post = new Post()
-            controller.update(post)
+            populateValidParams(params)
+            def post= new Post(params).save(flush:true)
+            params.clear()
+            populateInvalidParams(params)
+            controller.update(post.id).get()
 
-        then:"The response status is NOT_ACCEPTABLE"
-            response.status == NOT_ACCEPTABLE.value
+        then:"The edit view is rendered again with the invalid instance"
+            view == 'edit'
+            model.postInstance.id==post.id
 
         when:"A valid domain instance is passed to the update action"
             response.reset()
+            params.clear()
             populateValidParams(params)
-            post = new Post(params).save(flush: true)
-            controller.update(post)
+            controller.update(post.id).get()
 
-        then:"The response status is OK and the updated instance is returned"
-            response.status == OK.value
-            response.text == (post as JSON).toString()
+        then:"A redirect is issues to the show action"
+            response.redirectedUrl == "/post/show/$post.id"
+            flash.message != null
     }
 
     void "Test that the delete action deletes an instance if it exists"() {
         when:"The delete action is called for a null instance"
-            controller.delete(null)
+            controller.delete(null).get()
 
-        then:"A NOT_FOUND is returned"
-            response.status == NOT_FOUND.value
+        then:"A 404 is returned"
+            status == 404
 
         when:"A domain instance is created"
             response.reset()
             populateValidParams(params)
-            def post = new Post(params).save(flush: true)
+            def post= new Post(params).save(flush: true)
 
         then:"It exists"
             Post.count() == 1
 
         when:"The domain instance is passed to the delete action"
-            controller.delete(post)
+            controller.delete(post.id).get()
 
         then:"The instance is deleted"
             Post.count() == 0
-            response.status == NO_CONTENT.value
+            response.redirectedUrl == '/post/index'
+            flash.message != null
     }
 }

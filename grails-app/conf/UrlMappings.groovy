@@ -1,4 +1,4 @@
-
+import manifest.blog.PostController
 
 class UrlMappings {
 
@@ -12,6 +12,9 @@ class UrlMappings {
         "/post"(resources: "post"){
             "/comments"(resources: "comment")
         }
+
+        "/post/search"(controller: "post", action: 'search')
+
 
         "/comments"(resources: "/comment")
 
