@@ -17,21 +17,28 @@ app.controller("ModalController", function ($scope, close, $http) {
     }
 });
 
-app.constroller("LoginController", function($http){
+app.controller("LoginController", function($scope, $http){
     $scope.loggedIn = false;
 
     $scope.doLogin = function(data) {
         var url = "api/login";
-
+        var d = data
         $http.post(url, data)
             .success(function(){
                 $scope.loggedIn = true
             })
     };
+
+    $scope.doLogout = function() {
+        $http.get('api.logout')
+            .success(function() {
+                $scope.login = false
+            })
+    }
+
 })
 
 app.controller('PostsController', ['$scope', '$http', 'ModalService', function ($scope, $http, ModalService) {
-    $scope.loggedIn = false;
 
     $scope.doLogin = function(data) {
         var url = "api/login";
@@ -124,16 +131,18 @@ app.controller('PostController', function ($scope, $stateParams, $http) {
     }
 });
 
-app.directive('content')
-
 app.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('blog', {
             url: '/blog/:postId/:slug',
             templateUrl: 'blog.html',
             controller: 'PostController'
+        })
+        .state('home', {
+            url: '/',
+            templateUrl: 'content.html',
+            controller: 'PostsController'
         });
-
 
     $urlRouterProvider.otherwise('/');
 });

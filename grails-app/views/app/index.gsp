@@ -61,22 +61,20 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        {{ loggedIn }}
-            <a class="navbar-brand pull-right" href="api/logout" ng-show="loggedIn">Logout</a>
+
+            <a class="navbar-brand pull-right" href="api/logout" ng-show="loggedIn" ng-click="doLogout()">Logout</a>
 
             <div ng-hide="loggedIn">
 
-                <form class="form-inline pull-right" ng-show="!loggedIn" ng-submit="doLogin(data)">
+                <form class="form-inline pull-right" ng-hide="loggedIn" ng-submit="doLogin(data)">
                     <div class="form-group">
 
-                        <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Username"
-                               ng-model="data.username">
+                        <input type="text" class="form-control" placeholder="Username" ng-model="data.username">
                     </div>
 
                     <div class="form-group">
 
-                        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password"
-                               ng-model="password">
+                        <input type="password" class="form-control" placeholder="Password" ng-model="data.password">
                     </div>
 
                     <button type="submit" class="btn btn-default">Sign in</button>

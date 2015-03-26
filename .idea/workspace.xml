@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e34b58-65e7-4e89-9570-7ca5d371cc19" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testPost" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-app/search.html" afterPath="$PROJECT_DIR$/web-app/addBlog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/manifest/blog/PostController.class" afterPath="$PROJECT_DIR$/target/classes/manifest/blog/PostController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/manifest/blog/PostController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/angular-modal-service.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/angular-modal-service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/angular-route.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/angular-route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/angular-ui-router.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/angular-ui-router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/angular.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/angular.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/app.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/clean-blog.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/clean-blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/clean-blog.min.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/clean-blog.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/content.html" afterPath="$PROJECT_DIR$/web-app/content.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/app/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/app/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/jquery.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/grails-app/assets/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Manifest-Blog.iws" />
@@ -60,8 +44,8 @@
       <file leaf-file-name="index.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/app/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5957447" vertical-offset="615" max-vertical-offset="2370">
-              <caret line="46" column="96" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
+            <state vertical-scroll-proportion="-2.2340426" vertical-offset="855" max-vertical-offset="2340">
+              <caret line="64" column="104" selection-start-line="64" selection-start-column="104" selection-end-line="64" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -107,8 +91,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7210744" vertical-offset="1541" max-vertical-offset="2160">
-              <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.8987603" vertical-offset="165" max-vertical-offset="2295">
+              <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -2206,12 +2190,12 @@
       <workItem from="1427202235724" duration="12361000" />
       <workItem from="1427225913721" duration="21029000" />
       <workItem from="1427336504007" duration="8391000" />
-      <workItem from="1427385186103" duration="5902000" />
+      <workItem from="1427385186103" duration="6978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73672000" />
+    <option name="totallyTimeSpent" value="74748000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2247,6 +2231,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2266,7 +2251,6 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2720,16 +2704,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/app/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5957447" vertical-offset="615" max-vertical-offset="2370">
-          <caret line="46" column="96" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
+        <state vertical-scroll-proportion="-2.2340426" vertical-offset="855" max-vertical-offset="2340">
+          <caret line="64" column="104" selection-start-line="64" selection-start-column="104" selection-end-line="64" selection-end-column="104" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7210744" vertical-offset="1541" max-vertical-offset="2160">
-          <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.8987603" vertical-offset="165" max-vertical-offset="2295">
+          <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
           <folding />
         </state>
       </provider>
