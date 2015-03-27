@@ -1,6 +1,7 @@
 package manifest.blog
 
 import grails.rest.RestfulController
+import grails.plugin.springsecurity.annotation.Secured
 
 
 class CommentController extends RestfulController {
@@ -27,6 +28,7 @@ class CommentController extends RestfulController {
                 order: "desc")
     }
 
+	@Secured(["ROLE_ADMIN"])
     @Override
     def save() {
 
