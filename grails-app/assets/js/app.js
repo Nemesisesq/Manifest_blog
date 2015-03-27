@@ -42,15 +42,6 @@ app.controller("LoginController", function($scope, $http){
 
 app.controller('PostsController', ['$scope', '$http', 'ModalService', function ($scope, $http, ModalService) {
 
-    $scope.doLogin = function(data) {
-        var url = "api/login";
-
-        $http.post(url, data)
-            .success(function(){
-                $scope.loggedIn = true
-            })
-    };
-
     $http.get('post')
         .success(function (data) {
             $scope.posts = data;
@@ -97,14 +88,15 @@ app.controller('PostsController', ['$scope', '$http', 'ModalService', function (
 app.controller("CommentModalController", function ($scope, close, $http) {
     $scope.dismissModal = function (result) {
         close(result, 200);
-    }
-    $scope.saveNewPost = function () {
-        var url = "comment";
-        var data = $scope.post;
+    };
+    $scope.saveNewComment = function () {
+        var data = $scope.comment;
+        /*var url = "comment";
         $http.post(url, data)
             .success(function(data){
                 close(data)
-            })
+            })*/
+        close(data)
     }
 });
 
@@ -115,7 +107,6 @@ app.controller('PostController', function ($scope, $stateParams, $http, ModalSer
     $http.get( url)
         .success(function (data) {
             $scope.post = data;
-            alert('hello world')
         })
         .error(function () {
             alert('there was a problem getting the post')
@@ -128,7 +119,7 @@ app.controller('PostController', function ($scope, $stateParams, $http, ModalSer
         .error();
 
 
-    this.addComment = function (comment) {
+    $scope.saveComment = function (comment) {
 
         var c = JSON.stringify(comment);
 
@@ -151,7 +142,7 @@ app.controller('PostController', function ($scope, $stateParams, $http, ModalSer
             //it's a bootstrap element, use 'modal' to show it
             modal.element.modal();
             modal.close.then(function (data) {
-                this.addComment(data);
+                $scope.saveComment(data);
             });
         })
     };
