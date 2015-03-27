@@ -27,6 +27,7 @@ class PostController extends RestfulController {
                 order: "desc")
     }
 
+	@Secured (["ROLE_ADMIN"])
     @Override
     def save(){
         def r = request.JSON
