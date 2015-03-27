@@ -3,10 +3,10 @@
  */
 var app = angular.module('Blog', ['ui.router', 'angularModalService']);
 
-app.controller("ModalController", function ($scope, close, $http) {
+app.controller("PostModalController", function ($scope, close, $http) {
     $scope.dismissModal = function (result) {
         close(result, 200);
-    }
+    };
     $scope.saveNewPost = function () {
         var url = "post";
         var data = $scope.post;
@@ -16,6 +16,8 @@ app.controller("ModalController", function ($scope, close, $http) {
             })
     }
 });
+
+
 
 app.controller("LoginController", function($scope, $http){
     $scope.loggedIn = false;
@@ -60,7 +62,7 @@ app.controller('PostsController', ['$scope', '$http', 'ModalService', function (
     $scope.addPost = function () {
         ModalService.showModal({
             templateUrl: "addBlog.html",
-            controller: "ModalController"
+            controller: "PostModalController"
         }).then(function (modal) {
             //it's a bootstrap element, use 'modal' to show it
             modal.element.modal();
@@ -82,8 +84,6 @@ app.controller('PostsController', ['$scope', '$http', 'ModalService', function (
             url: 'post/search',
             params: {query: query}
         }).success(function (data) {
-            $scope.searchOrContent = false
-            var d = data;
             $scope.posts = data
         }).error(function () {
             alert("there's a problem with the search")
@@ -94,12 +94,25 @@ app.controller('PostsController', ['$scope', '$http', 'ModalService', function (
 
 }]);
 
+app.controller("CommentModalController", function ($scope, close, $http) {
+    $scope.dismissModal = function (result) {
+        close(result, 200);
+    }
+    $scope.saveNewPost = function () {
+        var url = "comment";
+        var data = $scope.post;
+        $http.post(url, data)
+            .success(function(data){
+                close(data)
+            })
+    }
+});
 
-app.controller('PostController', function ($scope, $stateParams, $http) {
+app.controller('PostController', function ($scope, $stateParams, $http, ModalService) {
 
 
     var url = 'post/' + $stateParams.postId;
-    $http.get(url)
+    $http.get( url)
         .success(function (data) {
             $scope.post = data;
             alert('hello world')
@@ -115,7 +128,7 @@ app.controller('PostController', function ($scope, $stateParams, $http) {
         .error();
 
 
-    $scope.addComment = function (comment) {
+    this.addComment = function (comment) {
 
         var c = JSON.stringify(comment);
 
@@ -128,7 +141,20 @@ app.controller('PostController', function ($scope, $stateParams, $http) {
             })
 
 
-    }
+    };
+
+    $scope.addComment = function () {
+        ModalService.showModal({
+            templateUrl: "addComment.html",
+            controller: "CommentModalController"
+        }).then(function (modal) {
+            //it's a bootstrap element, use 'modal' to show it
+            modal.element.modal();
+            modal.close.then(function (data) {
+                this.addComment(data);
+            });
+        })
+    };
 });
 
 app.config(function ($stateProvider, $urlRouterProvider) {

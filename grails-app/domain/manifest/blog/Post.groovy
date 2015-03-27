@@ -21,8 +21,8 @@ class Post {
     }
 
     def beforeValidate(){
-        def title = this.title.replaceAll(" ", "-" ).replaceAll("[^a-z/A-Z | ^-]", "")
-        def subtitle = this.subtitle.replaceAll(" ", "-" ).replaceAll("[^a-z/A-Z | ^-]", "")
+        def title = this.title.replaceAll(" ", "-" ).replaceAll(/[\W| ^-]/, "")
+        def subtitle = this.subtitle.replaceAll(" ", "-" ).replaceAll(/[\W | ^-]/, "")
         this.slug = new StringBuilder()
                 .append(this.dateCreated)
                 .append("-")

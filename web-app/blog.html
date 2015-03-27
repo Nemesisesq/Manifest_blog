@@ -1,4 +1,13 @@
 <!-- Post Content -->
+<div class="container">
+    <button class="btn btn-default" ng-click="addComment()"> Add Comment </button>
+    <form class="navbar-form navbar-right" role="search" ng-submit="search(query)">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" ng-model="query">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
 <article>
     <div class="container">
         <div class="row">

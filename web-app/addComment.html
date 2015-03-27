@@ -6,20 +6,17 @@
                 <h4 class="modal-title">Add A Post</h4>
             </div>
             <div class="modal-body">
-                <form role="form">
+                <form role="form" ng-submit="addComment(comment)">
                     <div class="form-group">
-                        <input type="text" name="title" id="title" class="form-control input-sm" placeholder="Title" ng-model="post.title">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="subtitle" id="subtitle" class="form-control input-sm" placeholder="Subtitle" ng-model="post.subtitle">
+                        <input type="text" name="author" id="author" class="form-control input-sm" placeholder="author" ng-model="comment.author">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" name="author" id="author" class="form-control input-sm" placeholder="Author" ng-model="post.email">
+                        <input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address" ng-model="comment.email">
                     </div>
 
                     <div>
-                        <textarea class="text-area form-control" rows="6" ng-model="post.body"></textarea>
+                        <textarea class="text-area form-control" rows="6" ng-model="comment.body"></textarea>
                     </div>
 
                     <hr>
@@ -27,7 +24,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" ng-click="saveNewPost()">Save changes</button>
+                <button type="button" class="btn btn-primary" ng-click="saveNewComment()">Save Comment</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
