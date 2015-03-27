@@ -28,7 +28,7 @@ class CommentController extends RestfulController {
                 order: "desc")
     }
 
-	@Secured(["ROLE_ADMIN"])
+	@Secured(["ROLE_ADMIN", "ROLE_USER"])
     @Override
     def save() {
 
