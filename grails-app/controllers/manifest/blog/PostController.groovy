@@ -1,6 +1,8 @@
 package manifest.blog
 
 import grails.rest.RestfulController
+
+import grails.plugin.springsecurity.annotation.Secured
 import org.joda.time.LocalDate
 
 
