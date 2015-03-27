@@ -31,7 +31,7 @@ class CommentController extends RestfulController {
     def save() {
 
         def r = request.JSON
-        new Comment(author: r.author, body: r.body, post: params.postId).save()
-        respond r
+        def c = new Comment(author: r.author, body: r.body, post: params.postId).save()
+        respond c
     }
 }

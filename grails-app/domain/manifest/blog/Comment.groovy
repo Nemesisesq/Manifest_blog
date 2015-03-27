@@ -1,13 +1,14 @@
 package manifest.blog
 
 import grails.rest.Resource
+import org.joda.time.LocalDate
 
 
 @Resource
 class Comment {
     String author
     String body
-    Date dateCreated
+    LocalDate dateCreated
 
     static belongsTo = [post: Post]
 

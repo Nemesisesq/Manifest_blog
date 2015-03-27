@@ -3,18 +3,8 @@
  */
 var app = angular.module('Blog', ['ui.router', 'angularModalService']);
 
-
-app.service('userInfoService', function () {
-    userInfo = this;
-
-    userInfo.username = "";
-    userInfo.token = "";
-    userInfo.loggedIn = false
-
-
-});
-
-app.controller("LoginController", function ($scope, $http, userInfoService) {
+//Controllers
+app.controller("LoginController", function ($scope, $http, userInfoService, $window) {
     var store = this;
     store.info = userInfoService;
 
@@ -26,18 +16,26 @@ app.controller("LoginController", function ($scope, $http, userInfoService) {
         $http.post(url, data)
             .success(function (data) {
                 store.info.username = data.username;
-                store.info.token = data.access_token;
+                $window.sessionStorage.token = data.access_token;
 
                 store.info.loggedIn = true;
 
-                $scope.loggedIn = store.info.loggedIn
+                $scope.loggedIn = store.info.loggedIn;
+
+                $scope.message = 'Welcome'
+            })
+            .error(function () {
+                delete $window.sessionStorage.token;
+
+                $scope.message = 'Error: Invalid user or password'
             })
     };
 
     $scope.doLogout = function () {
         $http.get('api/logout')
             .success(function () {
-                $scope.login = false
+                $scope.login = false;
+                delete $window.sessionStorage.token;
             })
     }
 
@@ -104,7 +102,7 @@ app.controller('PostsController', ['$scope', '$http', 'ModalService', function (
 
 }]);
 
-app.controller("CommentModalController", function ($scope, close, $http) {
+app.controller("CommentModalController", function ($scope, close) {
     $scope.dismissModal = function (result) {
         close(result, 200);
     };
@@ -167,6 +165,7 @@ app.controller('PostController', function ($scope, $stateParams, $http, ModalSer
     };
 });
 
+// Application Config
 app.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('blog', {
@@ -181,4 +180,36 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         });
 
     $urlRouterProvider.otherwise('/');
+});
+
+// Application Services and Providers
+app.service('userInfoService', function () {
+    userInfo = this;
+
+    userInfo.username = "";
+    //userInfo.token = $window.sessionStorage.token? $window.sessionStorage.token : "";
+    userInfo.loggedIn = false
+
+});
+
+app.factory('authInterceptor', function ($rootScope, $q, $window) {
+    return {
+        request: function (config) {
+            config.headers = config.headers || {};
+            if ($window.sessionStorage.token) {
+                config.headers.Authorization = 'Bearer' + $window.sessionStorage.token
+            }
+            return config;
+        },
+        response: function (response) {
+            if (response.status === 401) {
+                //handle response
+            }
+            return (response || $q.when(response))
+        }
+    }
+});
+
+app.config(function ($httpProvider) {
+    $httpProvider.interceptors.push('authInterceptor')
 });
