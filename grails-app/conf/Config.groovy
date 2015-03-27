@@ -120,6 +120,13 @@ log4j.main = {
             'grails.app.services.com.odobo',
             'org.pac4j',
             'org.springframework.security'
+
+    appenders {
+        rollingFile  name:'infoLog', file:'info.log', threshold: org.apache.log4j.Level.INFO, maxFileSize:1024
+        rollingFile  name:'warnLog', file:'warn.log', threshold: org.apache.log4j.Level.WARN, maxFileSize:1024
+        rollingFile  name:'errorLog', file:'error.log', threshold: org.apache.log4j.Level.ERROR, maxFileSize:1024
+        rollingFile  name:'custom', file:'custom.log', maxFileSize:1024
+    }
 }
 
 // Added by the Spring Security Core plugin:

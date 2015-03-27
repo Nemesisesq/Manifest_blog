@@ -210,6 +210,6 @@ app.factory('authInterceptor', function ($rootScope, $q, $window) {
     }
 });
 
-app.config(function ($httpProvider) {
+/*app.config(function ($httpProvider) {
     $httpProvider.interceptors.push('authInterceptor')
-});
+});*/
