@@ -32,7 +32,7 @@ class PostController extends RestfulController {
                 title: r.title,
                 subtitle: r.subtitle,
                 dateCreated: new LocalDate(),
-                author: "placeHolder",
+                author: r.author,
                 draft: false,
                 body: r.body,).save(failOnError: true)
 

@@ -10,9 +10,9 @@ class BootStrap {
     def init = { servletContext ->
 
         def adminRole = Role.findOrSaveWhere(authority: 'ROLE_ADMIN') ?: new Role(authority: 'ROLE_ADMIN').save()
-        String password = 'password'
+        String password = 'admin'
 
-        def user = new User(username: 'CarlLewis', password: password, enable: true).save()
+        def user = new User(username: 'admin', password: password, enable: true).save()
         def user2 = new User(username: 'LuisCarbuccia', password: password, enable: true).save()
 
         UserRole.create user, adminRole, true

@@ -3,42 +3,61 @@
  */
 var app = angular.module('Blog', ['ui.router', 'angularModalService']);
 
-app.controller("PostModalController", function ($scope, close, $http) {
+
+app.service('userInfoService', function () {
+    userInfo = this;
+
+    userInfo.username = "";
+    userInfo.token = "";
+    userInfo.loggedIn = false
+
+
+});
+
+app.controller("LoginController", function ($scope, $http, userInfoService) {
+    var store = this;
+    store.info = userInfoService;
+
+    $scope.loggedIn = store.info.loggedIn;
+
+    $scope.doLogin = function (data) {
+        var url = "api/login";
+
+        $http.post(url, data)
+            .success(function (data) {
+                store.info.username = data.username;
+                store.info.token = data.access_token;
+
+                store.info.loggedIn = true;
+
+                $scope.loggedIn = store.info.loggedIn
+            })
+    };
+
+    $scope.doLogout = function () {
+        $http.get('api/logout')
+            .success(function () {
+                $scope.login = false
+            })
+    }
+
+});
+
+app.controller("PostModalController", function ($scope, close, $http, userInfoService) {
     $scope.dismissModal = function (result) {
         close(result, 200);
     };
     $scope.saveNewPost = function () {
         var url = "post";
         var data = $scope.post;
+        var uname = userInfoService.username;
+        data.author = uname ? uname : "Anonymous";
         $http.post(url, data)
-            .success(function(data){
+            .success(function (data) {
                 close(data)
             })
     }
 });
-
-
-
-app.controller("LoginController", function($scope, $http){
-    $scope.loggedIn = false;
-
-    $scope.doLogin = function(data) {
-        var url = "api/login";
-        var d = data;
-        $http.post(url, data)
-            .success(function(){
-                $scope.loggedIn = true
-            })
-    };
-
-    $scope.doLogout = function() {
-        $http.get('api.logout')
-            .success(function() {
-                $scope.login = false
-            })
-    }
-
-})
 
 app.controller('PostsController', ['$scope', '$http', 'ModalService', function ($scope, $http, ModalService) {
 
@@ -92,10 +111,10 @@ app.controller("CommentModalController", function ($scope, close, $http) {
     $scope.saveNewComment = function () {
         var data = $scope.comment;
         /*var url = "comment";
-        $http.post(url, data)
-            .success(function(data){
-                close(data)
-            })*/
+         $http.post(url, data)
+         .success(function(data){
+         close(data)
+         })*/
         close(data)
     }
 });
@@ -104,7 +123,7 @@ app.controller('PostController', function ($scope, $stateParams, $http, ModalSer
 
 
     var url = 'post/' + $stateParams.postId;
-    $http.get( url)
+    $http.get(url)
         .success(function (data) {
             $scope.post = data;
         })
