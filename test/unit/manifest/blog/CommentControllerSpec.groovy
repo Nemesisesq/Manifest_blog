@@ -15,14 +15,13 @@ class CommentControllerSpec extends Specification {
         //params["name"] = 'someValidName'
     }
 
-    void "Test the index action returns the correct model"() {
+    void "Test the index action returns a list of posts"() {
 
-        when:"The index action is executed"
+        when:"The index action is executed and there is no post.id"
             controller.index()
 
         then:"The model is correct"
-            !model.commentInstanceList
-            model.commentInstanceCount == 0
+            response.text != ""
     }
 
     void "Test the create action returns the correct model"() {

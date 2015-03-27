@@ -10,11 +10,21 @@ import spock.lang.Specification
 class PostSpec extends Specification {
 
     def setup() {
+        def p = new Post(title: 'UnitTest', subtitle: 'More Unit Test', body: 'Hello World', author: 'Mike', draft: true )
     }
 
     def cleanup() {
     }
 
-    void "test something"() {
+    void "test that slug was created" () {
+        def p = new Post(title: 'UnitTest', subtitle: 'More Unit Test', body: 'Hello World', author: 'Mike', draft: true )
+
+        when:
+            p.save()
+
+        then:
+            p.slug
     }
+
+
 }

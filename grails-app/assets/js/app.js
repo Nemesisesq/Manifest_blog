@@ -43,7 +43,7 @@ app.controller("LoginController", function ($scope, $http, userInfoService, $win
 
 app.controller("PostModalController", function ($scope, close, $http, userInfoService) {
     $scope.dismissModal = function (result) {
-        close(result, 200);
+        close(result);
     };
     $scope.saveNewPost = function () {
         var url = "post";
@@ -104,7 +104,7 @@ app.controller('PostsController', ['$scope', '$http', 'ModalService', function (
 
 app.controller("CommentModalController", function ($scope, close) {
     $scope.dismissModal = function (result) {
-        close(result, 200);
+        close(result);
     };
     $scope.saveNewComment = function () {
         var data = $scope.comment;
