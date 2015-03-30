@@ -39,13 +39,10 @@ class PostController extends RestfulController {
                 draft: false,
                 body: r.body,).save(failOnError: true)
 
-        def f = Post.findByTitle(r.title)
-
         respond p
     }
 
     def search(){
-        def r = webRequest
         def query = "%" + params.query + "%"
         def f = Post.findAllByTitleLike(query)
         respond f

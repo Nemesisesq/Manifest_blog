@@ -1,11 +1,4 @@
 {
-  "class": "manifest.blog.Comment",
-  "id": 1,
   "author": "Mike",
-  "body": "Bacon ipsum dolor amet meatball jerky brisket boudin, frankfurter alcatra pork loin ham hock. Biltong pork loin short loin shankle, ground round meatloaf picanha beef ribs bacon salami kielbasa. Cow kielbasa porchetta beef tongue, kevin bacon brisket cupim pork flank strip steak chuck capicola. Beef ribs ham hock kielbasa doner, hamburger shankle tail. Ball tip salami prosciutto picanha flank. Pancetta landjaeger capicola t-bone short loin spare ribs hamburger swine ribeye jerky pastrami tenderloin picanha brisket leberkas. Biltong jowl kevin, ground round meatball filet mignon pig bresaola turkey strip steak meatloaf frankfurter.",
-  "dateCreated": "2015-03-23T19:58:53Z",
-  "post": {
-    "class": "manifest.blog.Post",
-    "id": 1
-  }
+  "body": "Bacon ipsum dolor amet meatball jerky brisket boudin, frankfurter alcatra pork loin ham hock. Biltong pork loin short loin shankle, ground round meatloaf picanha beef ribs bacon salami kielbasa. Cow kielbasa porchetta beef tongue, kevin bacon brisket cupim pork flank strip steak chuck capicola. Beef ribs ham hock kielbasa doner, hamburger shankle tail. Ball tip salami prosciutto picanha flank. Pancetta landjaeger capicola t-bone short loin spare ribs hamburger swine ribeye jerky pastrami tenderloin picanha brisket leberkas. Biltong jowl kevin, ground round meatball filet mignon pig bresaola turkey strip steak meatloaf frankfurter."
 }

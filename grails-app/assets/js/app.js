@@ -57,7 +57,11 @@ app.controller("PostModalController", function ($scope, close, $http, userInfoSe
     }
 });
 
-app.controller('PostsController', ['$scope', '$http', 'ModalService', function ($scope, $http, ModalService) {
+app.controller('PostsController', ['$scope', '$http', 'ModalService', 'userInfoService', function ($scope, $http, ModalService, userInfoService) {
+
+
+
+    $scope.loggedIn = userInfoService.loggedIn;
 
     $http.get('post')
         .success(function (data) {
@@ -117,8 +121,9 @@ app.controller("CommentModalController", function ($scope, close) {
     }
 });
 
-app.controller('PostController', function ($scope, $stateParams, $http, ModalService) {
+app.controller('PostController', function ($scope, $stateParams, $http, ModalService, userInfoService) {
 
+    $scope.loggedIn = userInfoService.loggedIn;
 
     var url = 'post/' + $stateParams.postId;
     $http.get(url)
